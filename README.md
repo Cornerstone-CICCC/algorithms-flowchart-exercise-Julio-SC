@@ -22,7 +22,7 @@ Pseudocode:
 - Print length in cm (LCM)
 
 ### _Answer_
-
+![problem 1](/flowcharts/Exercise_1.png)
 ## Exercise 2
 
 Write an algorithm and draw a flowchart that will read the two sides of a rectangle and calculate its area.
