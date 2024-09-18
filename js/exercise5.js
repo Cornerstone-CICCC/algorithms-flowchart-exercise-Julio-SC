@@ -1,12 +1,13 @@
 let student = "Mike"
-let mark = 85
+const fullScore = 100
+let mark = 35
 
-if (mark >= 80){
+if (mark >= fullScore * 0.8) {
     console.log("A")
-}else if (mark >= 60){
+} else if (mark >= fullScore * 0.6) {
     console.log("B")
-}else if (mark >= 40){
+} else if (mark >= fullScore * 0.4) {
     console.log("C")
-}else if (mark < 40){
+} else { 
     console.log("No Grade")
 }
