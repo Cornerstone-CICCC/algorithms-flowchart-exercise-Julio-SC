@@ -13,17 +13,17 @@ let C = 4
 //}
 
 if(A+B > C && B+C > A && C+A > B){
-    console.log("True")
+    console.log("Form a Triangle")
 }else{
-    console.log("false")
+    console.log("Cannot form a triangle")
 }
 
 if(A+B > C){
     if(B+C > A){
         if(C+A > B){
-            console.log("True")
+            console.log("Form a triangle")
         }
     }
 }else{
-    console.log("False")
+    console.log("Cannot form a triangle")
 }
